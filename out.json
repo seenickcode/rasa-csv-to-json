@@ -1,0 +1,611 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "how-works?",
+        "text": "how does it work?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "how do you work?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "what can I do?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "what commands do you support?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "who are you?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "how does all of this work?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "what do I do?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "what do you sell?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "who are you?",
+        "entities": []
+      },
+      {
+        "intent": "how-works?",
+        "text": "I can't understand you",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "hello",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "hey",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "sup",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "how are you?",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "how goes?",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "how's it going?",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "hi",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "greetings",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "hey hey",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "hi there",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "yo",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "good morning",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "good afternoon",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "good day",
+        "entities": []
+      },
+      {
+        "intent": "greeting",
+        "text": "good evening",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "help",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "I'm confused",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "what do I do?",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "I need help",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "need help",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "what do I do next?",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "huh?",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "can I talk to someone?",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "customer support",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "need support",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "tech support",
+        "entities": []
+      },
+      {
+        "intent": "need-help",
+        "text": "what?",
+        "entities": []
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "tell me about gin",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 16,
+            "value": "gin"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what's gin",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 10,
+            "value": "gin"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "how is gin made",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 10,
+            "value": "gin"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what is gin",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 8,
+            "end": 11,
+            "value": "gin"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "more info on gin",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 16,
+            "value": "gin"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "tell me about vodka",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 18,
+            "value": "vodka"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what's vodka",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 12,
+            "value": "vodka"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "how is vodka made",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 12,
+            "value": "vodka"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what is vodka",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 8,
+            "end": 13,
+            "value": "vodka"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "more info on vodka",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 18,
+            "value": "vodka"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "tell me about whiskey",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 20,
+            "value": "whiskey"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what's whiskey",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 14,
+            "value": "whiskey"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "how is whiskey made",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 14,
+            "value": "whiskey"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what is whiskey",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 8,
+            "end": 15,
+            "value": "whiskey"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "more info on whiskey",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 20,
+            "value": "whiskey"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "tell me about bourbon",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 20,
+            "value": "bourbon"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what's bourbon",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 14,
+            "value": "bourbon"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "how is bourbon made",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 14,
+            "value": "bourbon"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what is bourbon",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 8,
+            "end": 15,
+            "value": "bourbon"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "more info on bourbon",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 20,
+            "value": "bourbon"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "tell me about tequilla",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 21,
+            "value": "tequilla"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what's tequilla",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 15,
+            "value": "tequilla"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "how is tequilla made",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 15,
+            "value": "tequilla"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what is tequilla",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 8,
+            "end": 16,
+            "value": "tequilla"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "more info on tequilla",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 21,
+            "value": "tequilla"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "tell me about beer",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 17,
+            "value": "beer"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what's beer",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 11,
+            "value": "beer"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "how is beer made",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 11,
+            "value": "beer"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what is beer",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 8,
+            "end": 12,
+            "value": "beer"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "more info on beer",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 17,
+            "value": "beer"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "tell me about wine",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 17,
+            "value": "wine"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what's wine",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 11,
+            "value": "wine"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "how is wine made",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 7,
+            "end": 11,
+            "value": "wine"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "what is wine",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 8,
+            "end": 12,
+            "value": "wine"
+          }
+        ]
+      },
+      {
+        "intent": "tell-me-about",
+        "text": "more info on wine",
+        "entities": [
+          {
+            "entity": "taste",
+            "start": 13,
+            "end": 17,
+            "value": "wine"
+          }
+        ]
+      }
+    ]
+  }
+}
